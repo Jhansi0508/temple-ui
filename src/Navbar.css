@@ -1,0 +1,63 @@
+.navbar {
+    background-color: #800000;
+    position: relative; /* Ensure the navbar is relatively positioned */
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    position: relative;
+    margin: 0 20px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    display: block;
+}
+
+.nav-menu a:hover {
+    color: #ffd700;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Optional: Add box shadow */
+    z-index: 1000;
+    left: 0; /* Ensure dropdowns start from the left edge */
+    top: 100%; /* Position dropdowns just below the parent menu item */
+    width: 160px; /* Adjust the width of the dropdown menu */
+}
+
+.nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu li {
+    width: 100%; /* Make dropdown items take full width */
+}
+
+.dropdown-menu a {
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f8f9fa;
+    color: #007bff;
+}

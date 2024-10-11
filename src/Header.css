@@ -1,0 +1,19 @@
+/* Header.css */
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe09BJYgSwXndiJyxvjtbyQXdkat7MEsjuZg&s");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    font-size: 40px;
+    margin: 0;
+    color: rgb(27, 27, 3);
+}
+
+/* Add more styles for header elements */
